@@ -1,0 +1,59 @@
+*{
+    margin: 1px 3px 1px 3px;  
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#2C2827;
+    color: white;
+    margin: 30%;
+}
+
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 100;
+    font-size: larger;
+    color: lightgray;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav ul li, button{
+    list-style: none;
+    margin-right: -20%;
+    gap: -5%;
+    font-weight: 600;
+    background-color: #2C2827;
+    color: #9E8601;
+    border: 2px solid #E0C323;
+}
+
+main{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 12%;
+}
+
+.leftsection h1{
+    font-size: 60px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 15px;
+}
+
+.rightsection p{
+    width: 60%;
+}
+
+
